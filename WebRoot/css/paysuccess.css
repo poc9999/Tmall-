@@ -1,0 +1,39 @@
+
+        body{
+            font-size: 12px;
+            font-family: Arial;
+        }
+        div.allPayOkOrder{
+            margin: 10px auto 20px auto;
+            width: 1013px;
+            border: 1px solid #d4d4d4;
+        }
+       div.UserInfoDiv div.alert{
+           height: 50px;
+        }
+        div.UserInfoDiv div.alert span{
+            font-size: 14px;
+        }
+        div.addressInfo{
+            padding: 26px 25px;
+        }
+        ul.allUserInfo li{
+            padding: 5px 0px;
+        }
+        ul.allUserInfo span.payedPrice{
+            font-size: 14px;
+            color: #FF0036;
+            font-weight: bold;
+            font-family: Arial;
+        }
+        div.checkLinkBuy{
+            margin-left: 30px;
+        }
+        /*À¶É«µÄa±êÇ©*/
+        div.checkLinkBuy a{
+        	color: #2d8cba;
+        }
+        div.checkLinkBuy a:HOVER {
+			text-decoration: underline;
+			color: #2d8cba;
+		}

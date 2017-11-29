@@ -1,0 +1,32 @@
+
+/*设置body的上内边距为70px以免被覆盖*/
+body{
+    padding-top: 70px;
+    height: 100%;
+}
+
+/*设置工作区域的外边距 上边距和下边距为0px 左边距和右边距为40px*/
+div.workingArea{
+    margin: 0px 40px;
+}
+
+html{height:100%;}
+/*设置页脚永远在最下面*/
+footer{position: relative;margin-top: -60px;height: 60px;clear:both;background: #fff}
+ /*设置分类页面添加属性居中*/
+div.addDiv{
+	width:400px;
+	margin:0px auto;
+}
+#container {
+   min-height:100%; /*使内容高度和body一样*/
+   margin-bottom:-80px;/*向上缩减80像素，不至于footer超出屏幕可视范围*/
+}
+#content {
+   padding-bottom:150px; /*这个是关键，处理页面高度超出屏幕可视范围时，控制内容和底部高度之间距离*/
+}
+#footer {
+   height:80px;
+}
+
+

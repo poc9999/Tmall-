@@ -1,0 +1,19 @@
+    div.allPayment{
+        margin: 30px auto;
+        text-align: center;
+    }
+    span.ScanPayment{
+        color: #4d4d4d;
+        font-size: 12px;
+        margin: 10px;
+        display: block;
+    }
+    span.PaymentPrice{
+        margin: 10px;
+        color: #ff6600;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    button.btn{
+        margin: 10px;
+    }

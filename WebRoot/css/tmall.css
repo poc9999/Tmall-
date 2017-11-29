@@ -1,0 +1,121 @@
+.search_top{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.tmall{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+div.searchDiv{
+    /*背景色红色*/
+    background-color: #FF0036;
+    /*宽度50%*/
+    width: 50%;
+    /*居中显示，外边距为50px*/
+    margin: 50px auto auto 35px;
+    /*margin-left: 120px;*/
+
+
+    padding: 1px;
+
+    height: 40px;
+    /*以块级元素显示，不然会覆盖*/
+    display: inline-block;
+}
+
+div.searchDiv input{
+
+   	width: 80%;
+
+    border: 1px solid transparent;
+
+    height: 36px;
+
+    margin: 1px;
+
+    outline: none;
+}
+/*搜索按钮的样式设置*/
+.searchButton{
+
+   	width: 19%;
+
+    border: 1px solid transparent;
+
+    background-color: #FF0036;
+
+    color: white;
+
+    font-size: 19px;
+
+    letter-spacing: 4px;
+
+    font-weight: bold;
+}
+
+.searchBelow{
+
+    margin-left: 0px;
+    margin-top: 2px;
+}
+/*把不同span之间的竖棒设置为灰色*/
+.searchBelow span{
+    color: #999;
+}
+/*设置里面超链接字体边距和字体大小*/
+.searchBelow a{
+
+    padding: 0px 8px 0px 8px;
+
+    font-size: 14px;
+
+    text-decoration: none;
+
+
+}
+div.searchBelow a:hover{
+    color: #FF0036;
+}
+
+nav.head_show{
+
+    margin-left: 50px;
+
+}
+/*商品分类的属性*/
+.head{
+    width: 200px;
+    background-color: #FF0036;
+    height: 36px;
+    color: #fff;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.rightMenu a img{
+    height: 30px;
+
+}
+/*设置字体的属性*/
+.rightMenu a{
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding: 0px 8px 0px 8px;
+    font-weight: 500;
+    letter-spacing: normal;
+    position: relative;
+    text-decoration: none;
+}
+/*设置鼠标悬浮改变字体颜色*/
+.rightMenu a:hover{
+    color: #FF0036;
+}
+/*改变字体的盒模型*/
+.rightMenu{
+    display: inline-block;
+}

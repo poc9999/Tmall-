@@ -1,0 +1,120 @@
+
+    /*页脚div*/
+    div.footer1 div.footer2{
+        /*无外边距*/
+        margin: 0px 0px;
+        /*上边框实线*/
+        border-top-style:solid;
+        /*上边框一个像素*/
+        border-top-width: 1px;
+        /*上边框颜色*/
+        border-top-color: #e7e7e7;
+    }
+    /*图片div*/
+    div.ensureDiv{
+        /*图片居中*/
+        text-align: center;
+        /*上外边距：24px*/
+        margin-top: 24px;
+        /*下外边距：24px*/
+        margin-bottom: 24px;
+    }
+    /*购物指南所在Div*/
+    div.foot_desc{
+        border-top-style: solid;
+
+        border-top-width: 1px;
+
+        border-top-color: #e7e7e7;
+        /*上内边距:30px*/
+        padding-top: 30px;
+        /*左右外边距 上下0px 左右20px*/
+        margin: 0px 20px;
+    }
+
+    div.foot_desc div.desc_Div{
+        /*5个DIV 每个div18%*/
+        width: 18%;
+        /*浮动布局*/
+        float: left;
+        /*内左边距15px*/
+        padding-left: 15px;
+    }
+
+    /*购物指南等字体*/
+    span.Title{
+        /*文字大小*/
+        font-size: 16px;
+        /*文字颜色*/
+        color: #646464;
+        /*粗体*/
+        font-weight: bold;
+    }
+
+    div.foot_desc a{
+        display: block;
+        /*内边距*/
+        padding-top: 3px;
+    }
+    /*所有a标签*/
+    a{
+        color:#999;
+        text-decoration: none;
+        padding-left: 5px;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+    div.copyright{
+        background-color: black;
+        border-top-style: solid;
+        border-top-width: 3px;
+        border-top-color: #C40000;
+    }
+    div.copyright span.slash{
+        color:white;
+    }
+    /*白色的超链接*/
+    div.footer2 div.copyright div.link a{
+        color:white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /*超链接之间的间隔*/
+    div.footer2 div.copyright div.link{
+
+        padding: 10px 0px;
+        /*左外边距为10px*/
+        margin-left: 10px;
+    }
+    /*许可证*/
+    div.license{
+        margin-left: 10px;
+        /*下内边距30px*/
+        padding-bottom: 30px;
+    }
+    div.license div.copyRightPolice{
+        margin-top: 5px;
+    }
+    div.license div.copyRightPolice span{
+        margin-right: 80px;
+        color: #A4A4A4;
+    }
+    div.license div.copyRightYear{
+        margin: 10px 0px;
+        color: #686868;
+    }
+
+    img.cateye{
+        margin-left: 20px;
+    }
+
+    div.license span{
+        margin: 0px 5px;
+    }
+    /*设置整个body的字体大小*/
+    body{
+        font-size: 12px;
+
+        font-family: Arial;
+    }

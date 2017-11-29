@@ -1,0 +1,158 @@
+div.boughtDiv{
+            width: 1013px;
+            margin: 10px auto;
+        }
+        /*悬浮的div*/
+        div.orderTypeDiv div{
+            border-bottom: 2px solid #e8e8e8;
+            float: left;
+        }
+        /*a标签*/
+        div.orderTypeDiv a{
+            border-right: 1px solid #e8e8e8;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 10px;
+            padding: 0px 20px;
+            text-decoration: none;
+        }
+        div.orderTypeDiv a:hover{
+            color: #ff6000;
+        }
+        /*第一个订单div*/
+        div.orderTypeDiv div.selectOrderType{
+            border-bottom: 2px solid #ff6000;
+        }
+        div.orderTypeDiv div.selectOrderType a{
+            color: #ff6000;
+        }
+        /*右侧空的div*/
+        div.orderTypeDiv div.noneDiv{
+            /*隐藏滚动条*/
+            overflow: hidden;
+            /*取消浮动*/
+            float: none;
+            /*下边框*/
+            border-bottom: 2px solid #e8e8e8;
+            /*高度35px*/
+            height: 35px;
+        }
+        div.inputAndBtn{
+            margin: 12px 0px;
+        }
+        div.inputAndBtn table{
+            border:1px solid black;
+        }
+
+        div.inputAndBtn table input[type='text']{
+            border: 0;
+            width: 250px;
+        }
+        div.inputAndBtn table input[type='button']{
+            /*border: 1px solid #bfbfbf;*/
+            background-color: #f5f5f5;
+            padding: 0px 16px;
+            border: 0;
+            border-left: 1px solid #bfbfbf;
+        }
+        a.noRightborder{
+            border-right-width: 0px!important;
+        }
+        /*表格*/
+        table.orderListTitleTable{
+            border:1px solid #e8e8e8;
+            margin: 20px 0px!important;
+            width: 1013px;
+            background-color: #f5f5f5;
+            text-align: center;
+            font-size: 12px;
+        }
+        table.orderListTitleTable td{
+            padding: 12px 0px;
+        }
+
+		
+
+
+        table.orderItemTable thead{
+            background-color: #eaf8ff;
+            border: 2px solid #eaf8ff;
+            width: 100%;
+            font-size: 12px;
+        }
+        table.orderItemTable tbody{
+            width: 100%;
+            border: 2px solid #eaf8ff;
+            font-size: 12px;
+            text-align: center;
+            padding: 20px 0px;
+        }
+        /*表格悬停状态*/
+        table.orderItemTable:hover{
+            border:1px solid #eaf8ff;
+        }
+        table.orderItemTable thead th,td{
+            padding: 8px 10px;
+        }
+        /*图片靠左悬浮*/
+        tr.orderItemProductInfoPartTR img{
+            float: left;
+        }
+        div.orderProductInfo div.orderListItemProductLinkInnerDiv{
+            margin-top: 10px;
+        }
+        div.orderListItemProductLinkInnerDiv img{
+            padding: 0px 3px;
+        }
+        /*价格字体颜色*/
+        div.orderListItemProductOriginalPrice{
+            color: #999999;
+            font-size: 14px;
+            text-decoration: line-through;
+        }
+        /*下面图片最外层的div*/
+        div.orderListItem{
+            width: 1013px;
+            margin-top: 20px;
+            border:2px solid white;
+        }
+        div.orderListItem:hover{
+        
+        	border:2px solid #888;
+        }
+        div.orderListItemProductPrice{
+            color: #3c3c3c;
+            font-size: 14px;
+        }
+        span.orderListItemProductRealPrice{
+            color: #3c3c3c;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        span.orderListItemPriceWithTransport{
+            display: block;
+            color: #6c6c6c;
+            font-size: 12px;
+        }
+        a{
+            color: #3c3c3c;
+        }
+        a:hover{
+            color: #ff6000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        div.paymentBtn input{
+            margin-bottom: 5px;
+            background-color: #ff6000;
+            padding: 5px;
+            color: #fff;
+            font-weight: bold;
+            border: 1px solid #ff4200;
+        }
+        /*悬浮加上0.8的透明度*/
+        div.paymentBtn input:hover{
+            opacity: 0.8;
+        }
